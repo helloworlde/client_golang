@@ -16,7 +16,7 @@ package prometheus_test
 import (
 	"net/http"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/helloworlde/client_golang/prometheus"
 )
 
 var (

@@ -23,7 +23,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prometheus/client_golang/prometheus"
+	"github.com/helloworlde/client_golang/prometheus"
 )
 
 type errorCollector struct{}

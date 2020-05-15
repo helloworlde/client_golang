@@ -31,9 +31,9 @@
 //              "math/rand"
 //              "net/http"
 //
-//              "github.com/prometheus/client_golang/prometheus"
-//              "github.com/prometheus/client_golang/prometheus/promauto"
-//              "github.com/prometheus/client_golang/prometheus/promhttp"
+//              "github.com/helloworlde/client_golang/prometheus"
+//              "github.com/helloworlde/client_golang/prometheus/promauto"
+//              "github.com/helloworlde/client_golang/prometheus/promhttp"
 //      )
 //
 //      var histogram = promauto.NewHistogram(prometheus.HistogramOpts{
@@ -62,9 +62,9 @@
 //      	"fmt"
 //      	"net/http"
 //
-//      	"github.com/prometheus/client_golang/prometheus"
-//      	"github.com/prometheus/client_golang/prometheus/promauto"
-//      	"github.com/prometheus/client_golang/prometheus/promhttp"
+//      	"github.com/helloworlde/client_golang/prometheus"
+//      	"github.com/helloworlde/client_golang/prometheus/promauto"
+//      	"github.com/helloworlde/client_golang/prometheus/promhttp"
 //      )
 //
 //      func main() {
@@ -158,7 +158,7 @@
 // Enjoy promauto responsibly!
 package promauto
 
-import "github.com/prometheus/client_golang/prometheus"
+import "github.com/helloworlde/client_golang/prometheus"
 
 // NewCounter works like the function of the same name in the prometheus package
 // but it automatically registers the Counter with the

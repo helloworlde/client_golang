@@ -31,7 +31,7 @@ import (
 
 	"github.com/prometheus/common/model"
 
-	"github.com/prometheus/client_golang/api"
+	"github.com/helloworlde/client_golang/api"
 )
 
 func init() {

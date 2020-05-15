@@ -896,10 +896,12 @@ func checkMetricConsistency(
 	}
 	hSum := h.Sum64()
 	if _, exists := metricHashes[hSum]; exists {
-		return fmt.Errorf(
-			"collected metric %q { %s} was collected before with the same name and label values",
-			name, dtoMetric,
-		)
+		fmt.Println("collect failed, the same name label has exist.")
+		return nil
+		// return fmt.Errorf(
+		// 	"collected metric %q { %s} was collected before with the same name and label values",
+		// 	name, dtoMetric,
+		// )
 	}
 	metricHashes[hSum] = struct{}{}
 	return nil
